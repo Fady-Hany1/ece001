@@ -103,14 +103,14 @@ Compared with humans, existing AI lacks several features of human "commonsense r
 <html>
     <body>
      
-        <img src="file:///C:/Users/FADY/Desktop/ai1.PNG">
+        <img src="file:///C:/Users/FADY/Desktop/Fady%20Hany%20567/ai1.PNG">
     </body>
 </html>
 <!DOCTYPE html>
 <html>
     <body>
         
-        <img src="file:///C:/Users/FADY/Desktop/ai2.PNG">
+        <img src="file:///C:/Users/FADY/Desktop/Fady%20Hany%20567/ai2.PNG">
     </body>
 </html>
                         </div>
@@ -144,5 +144,4 @@ Group:5
         <script src="js/script.js"></script>
     </body>
 </html>
-
 
