@@ -110,7 +110,7 @@ Compared with humans, existing AI lacks several features of human "commonsense r
 <html>
     <body>
         
-        <img src="https://github.com/Fady-Hany1/ece001/blob/main/ai2.PNG">
+        <img src="Fady-Hany1/ece001/blob/main/ai2.PNG">
     </body>
 </html>
                         </div>
