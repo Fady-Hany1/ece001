@@ -1,0 +1,61 @@
+/*
+Theme Name: arabic responsive framework
+Author: Amro Eldewiny
+Authour URI: http://arabic-html.com
+Description: First demo for the template framwork
+Version: 1.0
+*/
+
+/*Min website style*/
+
+body{
+	color: #4A5269;
+	background: #56C8BE;
+	font-family: 'AraJozoor-Regular';
+}
+
+header.header{
+	background: #CFBA7A;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	padding: 0 2%;
+	display: inline-block;
+}
+
+nav a{
+	text-decoration: none;
+	display: block;
+	color: #B00843;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+
+#page{
+    overflow:hidden;
+    position:relative;
+    padding-top:3em;
+    width: 100%;
+}
+
+.content{
+	padding: 2%;
+}
+
+/*Working for jQuery*/
+
+.slide-right {
+    right:0;
+}
+.slide-left {
+    left:0;
+}
