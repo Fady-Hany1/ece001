@@ -14,6 +14,11 @@
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href="http://fonts.hosni.netdna-cdn.com/fonts/cdn/file_font/?font=AraJozoor-Regular" rel="stylesheet">
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <style>
+            img {animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1; background: transparent; border: 10px solid rgba(0, 0, 0, 0.12); border-radius: 4px; display: block; margin: 1.3em auto; max-width: 40%;}
+        
+        </style>
+        
     </head>
     <body>
         <header class="header">
@@ -48,6 +53,7 @@ The traditional problems (or goals) of AI research include reasoning, knowledge 
 The field was founded on the assumption that human intelligence "can be so precisely described that a machine can be made to simulate it".[27] This raises philosophical arguments about the mind and the ethics of creating artificial beings endowed with human-like intelligence. These issues have been explored by myth, fiction and philosophy since antiquity.[32] Some people also consider AI to be a danger to humanity if it progresses unabated.[33][34] Others believe that AI, unlike previous technological revolutions, will create a risk of mass unemployment.[35]
 
 In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research
+                                
                             </p>
                         </div>
                     </div>
@@ -76,7 +82,7 @@ According to Bloomberg's Jack Clark, 2015 was a landmark year for artificial int
 By 2020, Natural Language Processing systems such as the enormous GPT-3 (then by far the largest artificial neural network) were matching human performance on pre-existing benchmarks, albeit without the system attaining commonsense understanding of the contents of the benchmarks.[75] DeepMind's AlphaFold 2 (2020) demonstrated the ability to determine, in hours rather than months, the 3D structure of a protein. Facial recognition advanced to where, under some circumstances, some systems claim to have a 99% accuracy rate                            </p>
                         </div>
                     </div>
-                    <div id="gallery">
+                        <div id="gallery">
                         <div class="content">
                             <h1>Basics</h1>
                             <p>
@@ -98,22 +104,13 @@ The earliest (and easiest to understand) approach to AI was symbolism (such as f
 
 Learning algorithms work on the basis that strategies, algorithms, and inferences that worked well in the past are likely to continue working well in the future. These inferences can be obvious, such as "since the sun rose every morning for the last 10,000 days, it will probably rise tomorrow morning as well". They can be nuanced, such as "X% of families have geographically separate species with color variants, so there is a Y% chance that undiscovered black swans exist". Learners also work on the basis of "Occam's razor": The simplest theory that explains the data is the likeliest. Therefore, according to Occam's razor principle, a learner must be designed such that it prefers simpler theories to complex theories, except in cases where the complex theory is proven substantially better.
 Settling on a bad, overly complex theory gerrymandered to fit all the past training data is known as overfitting. Many systems attempt to reduce overfitting by rewarding a theory in accordance with how well it fits the data, but penalizing the theory in accordance with how complex the theory is.[87] Besides classic overfitting, learners can also disappoint by "learning the wrong lesson". A toy example is that an image classifier trained only on pictures of brown horses and black cats might conclude that all brown patches are likely to be horses.[88] A real-world example is that, unlike humans, current image classifiers often don't primarily make judgments from the spatial relationship between components of the picture, and they learn relationships between pixels that humans are oblivious to, but that still correlate with images of certain types of real objects. Modifying these patterns on a legitimate image can result in "adversarial" images that the system misclassifies.[c][89][90]
-Compared with humans, existing AI lacks several features of human "commonsense reasoning"; most notably, humans have powerful mechanisms for reasoning about "naïve physics" such as space, time, and physical interactions. This enables even young children to easily make inferences like "If I roll this pen off a table, it will fall on the floor". Humans also have a powerful mechanism of "folk psychology" that helps them to interpret natural-language sentences such as "The city councilmen refused the demonstrators a permit because they advocated violence" (A generic AI has difficulty discerning whether the ones alleged to be advocating violence are the councilmen or the demonstrators[91][92][93]). This lack of "common knowledge" means that AI often makes different mistakes than humans make, in ways that can seem incomprehensible. For example, existing self-driving cars cannot reason about the location nor the intentions of pedestrians in the exact way that humans do, and instead must use non-human modes of reasoning to avoid accidents       </p>
+Compared with humans, existing AI lacks several features of human "commonsense reasoning"; most notably, humans have powerful mechanisms for reasoning about "naïve physics" such as space, time, and physical interactions. This enables even young children to easily make inferences like "If I roll this pen off a table, it will fall on the floor". Humans also have a powerful mechanism of "folk psychology" that helps them to interpret natural-language sentences such as "The city councilmen refused the demonstrators a permit because they advocated violence" (A generic AI has difficulty discerning whether the ones alleged to be advocating violence are the councilmen or the demonstrators[91][92][93]). This lack of "common knowledge" means that AI often makes different mistakes than humans make, in ways that can seem incomprehensible. For example, existing self-driving cars cannot reason about the location nor the intentions of pedestrians in the exact way that humans do, and instead must use non-human modes of reasoning to avoid accidents       
+                            <img src="ai1.PNG"></img>
+                            <img src="ai2.PNG"></img>
+                            </p>
 <!DOCTYPE html>
-<html>
-    <body>
-     
-        <img src="ai1.PNG">
-    </body>
-</html>
-<!DOCTYPE html>
-<html>
-    <body>
-        
-        <img src="Fady-Hany1/ece001/blob/main/ai2.PNG">
-    </body>
-</html>
-                        </div>
+                            <!DOCTYPE html>
+                            </div>
                     </div>
                     <div id="portfolio">
                         <div class="content">
@@ -144,4 +141,3 @@ Group:5
         <script src="js/script.js"></script>
     </body>
 </html>
-
